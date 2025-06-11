@@ -11,7 +11,7 @@ import java.io.File;
  */
 public class ProjectGroupIdFilter extends PomXmlFilter {
 
-    public static final String GROUP_ID_PREFIX = "com.vaadin.external.atmosphere";
+    public static final String GROUP_ID_PREFIX = "at.ganzleicht.vaadin.atmosphere";
 
     public ProjectGroupIdFilter(File root) {
         super(root);
